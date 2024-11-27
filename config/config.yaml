@@ -1,0 +1,22 @@
+server:
+  host: "localhost"
+  port: "8080"
+
+database:
+  host: "127.0.0.1"
+  port: 5432
+  name: "blog"
+  user: "oxee"
+  password: "oxee"
+  sslmode: "disable"
+
+jwt:
+  secret_key: "abb0e56d5136b6775aabe97e5773ddb558bbd5d35b5c9075f6ee63511d2acffe3e2d4adcd6103948e267d6ea8247c5c78c2640e174dcfc0740f80aaac52fdb4c510af1745fe166a37dc034eb32a31965fe3670a63a8a3adfa8ff16472d980abe56e5046d62997d1843cdd3f7f8f45eb258a57388f096d3bfecd0914bae065f75d08edc4a0160a57e306d2f74719d0cbc0cf54bd91b69b9483bacf904277e0d1728296eeda9211d9c1e2340e8c517e4c65cb7ef200055d01ce683200294ef594adb0d93cc2e62dd5c2aa33bdc81943929fdf4896d8fab2c446a8d4dc80afff2d3cb444d0bc96c433bc9868c8b9b8a96dc47989f1c99bc426c30eee599d63901ca"
+  token_lifetime_minutes: 60
+
+email:
+  smtpserver: "smtp.mail.ru"
+  smtpport: 465
+  username: "thunderleo@mail.ru"
+  password: ""
+  from: "thunderleo@mail.ru"
