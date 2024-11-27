@@ -42,8 +42,8 @@ This project is an educational blog with a **Go** backend, communicating via HTT
 ### Steps to Run the Project:
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-blog.git
-   cd your-blog
+   git clone https://github.com/Oxeeee/go-blog.git
+   cd go-blog
    ```
 
 2. Set up environment variables:
