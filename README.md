@@ -1,8 +1,4 @@
-Here’s the revised `README.md` including your project structure:
-
----
-
-# Educational Blog
+# Blog
 
 This project is an educational blog with a **Go** backend, communicating via HTTP requests. All interactions are performed using `POST`, `GET`, and `DELETE` methods. The project includes functionality for user and post management, as well as email confirmation for registration.
 
